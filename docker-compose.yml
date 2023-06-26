@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  fsbe:
+    build: backend/.
+    ports:
+      - '8080:8080'
+  fsfe:
+    build: frontend/.
+    ports:
+      - '5173:5173'
